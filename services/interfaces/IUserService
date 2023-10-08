@@ -1,0 +1,9 @@
+package services
+
+type IUserSevice interface {
+	Create(*models.User) error
+	GetByName(*string) (*models.User, error)
+	Get() ([]*models.User, error)
+	Update(*models.User) error
+	Delete(*string) error
+}
