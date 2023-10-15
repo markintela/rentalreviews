@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"log"
-	"rentalreviewspt/api"
+	api "rentalreviewspt/api/server"
 	storage "rentalreviewspt/database"
 )
 

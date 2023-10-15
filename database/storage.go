@@ -1,6 +1,6 @@
 package storage
 
-import "rentalreviewspt/types"
+import "rentalreviewspt/services/types"
 
 type Storage interface {
 	Get(int) *types.User
